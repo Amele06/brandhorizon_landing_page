@@ -1,0 +1,46 @@
+body {
+	  font-family: Arial, sans-serif;
+  }
+
+  header {
+	    text-align: center;
+	      padding: 50px;
+      }
+
+      .cover-image {
+	        width: 100%;
+		  height: auto;
+	  }
+
+	  h1 {
+		    font-size: 3em;
+		      margin: 20px 0;
+	      }
+
+	      p {
+		        font-size: 1.5em;
+		}
+
+		nav ul {
+			  list-style-type: none;
+			    padding: 0;
+		    }
+
+		    nav ul li {
+			      display: inline;
+			        margin: 0 15px;
+			}
+
+			.btn {
+				  display: inline-block;
+				    padding: 10px 20px;
+				      background-color: #007BFF;
+				        color: white;
+					  text-decoration: none;
+					    border-radius: 5px;
+				    }
+
+				    .btn:hover {
+					      background-color: #0056b3;
+				      }
+
