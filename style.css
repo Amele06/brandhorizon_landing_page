@@ -1,149 +1,134 @@
-
-dy {
+/* General Styles */
+body {
 	    font-family: 'Arial', sans-serif;
 	        margin: 0;
-		    background-color: #f7f7f7; /* Light background */
-	    }
+		    padding: 0;
+		        background-color: #ffa500; /* Orange background for the entire page */
+			    color: #333; /* Text color for readability */
+		    }
 
-	    /* Navigation Bar */
-	    header {
-		        background-color: #0070f3; /* BrandHorizon theme color (e.g., blue) */
-			    padding: 20px 40px;
-			        display: flex;
-				    justify-content: space-between;
-				        align-items: center;
-					    color: white;
-				    }
-
-				    header .logo {
-					        font-size: 1.5rem;
-						    font-weight: bold;
+		    /* Header Styles */
+		    header {
+			        background-color: #ffffff; /* White background for the header */
+				    padding: 20px 40px;
+				        color: #004e98; /* Darker blue for text in header */
+					    display: flex;
+					        justify-content: space-between;
+						    align-items: center;
 					    }
 
-					    header nav ul {
-						        display: flex;
-							    list-style: none;
-						    }
-
-						    header nav ul li {
-							        margin: 0 15px;
-							}
-
-							header nav ul li a {
-								    color: white;
+					    header .cta-button {
+						        background-color: #ff9800; /* Vibrant orange for CTA button */
+							    color: white;
+							        padding: 10px 20px;
+								    border-radius: 5px;
 								        text-decoration: none;
 								}
 
-								header nav .cta-button {
-									    padding: 10px 20px;
-									        background-color: white;
-										    color: #0070f3;
-										        border-radius: 5px;
-											    text-decoration: none;
-										    }
+								/* Hero Section */
+								.hero {
+									    background-image: url('images/hero-background.jpg'); /* Add an image for hero */
+									        background-size: cover;
+										    background-position: center;
+										        height: 80vh;
+											    display: flex;
+											        align-items: center;
+												    justify-content: center;
+												        color: white;
+													    text-align: center;
+												    }
 
-										    /* Hero Section */
-										    .hero {
-											        background-image: url('your-background-image.jpg'); /* Hero background */
-												    background-size: cover;
-												        background-position: center;
-													    color: white;
-													        height: 80vh;
-														    display: flex;
-														        align-items: center;
-															    justify-content: center;
-															        text-align: center;
+												    .hero h1 {
+													        font-size: 3.5rem;
+														    color: #ffffff; /* Keep text white for better contrast */
+													    }
+
+													    .hero p {
+														        font-size: 1.25rem;
+															    margin: 20px 0;
+															        color: #ffffff;
 															}
 
-															.hero-content {
-																    max-width: 600px;
-															    }
-
-															    .hero h1 {
-																        font-size: 3rem;
+															/* Features Section */
+															.features {
+																    background-color: #ffcc80; /* Light orange for feature section */
+																        padding: 60px 20px;
 																}
 
-																.hero p {
-																	    font-size: 1.25rem;
-																	        margin: 20px 0;
-																	}
+																.feature-cards {
+																	    display: flex;
+																	        justify-content: space-around;
+																		    margin-top: 30px;
+																	    }
 
-																	.primary-button {
-																		    padding: 15px 30px;
-																		        background-color: #ff9800; /* CTA color (orange or your choice) */
-																			    color: white;
-																			        border: none;
-																				    border-radius: 5px;
-																				        text-decoration: none;
-																					    font-size: 1.2rem;
+																	    .card {
+																		        background-color: white; /* Keep cards white for contrast against orange background */
+																			    border-radius: 8px;
+																			        padding: 20px;
+																				    width: 30%;
+																				        text-align: center;
+																					    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 																				    }
 
-																				    /* Features Section */
-																				    .features {
-																					        padding: 60px 20px;
-																						    text-align: center;
-																						        background-color: #fff;
+																				    /* Testimonials Section */
+																				    .testimonials {
+																					        background-color: #ffb74d; /* Slightly darker orange for testimonials section */
+																						    padding: 60px 20px;
+																						        text-align: center;
 																						}
 
-																						.features h2 {
-																							    font-size: 2.5rem;
-																							        margin-bottom: 40px;
-																							}
+																						.testimonial {
+																							    margin: 20px;
+																							        display: inline-block;
+																								    width: 40%;
+																							    }
 
-																							.feature-cards {
-																								    display: flex;
-																								        justify-content: space-around;
-																								}
+																							    .testimonial img {
+																								        border-radius: 50%;
+																									    width: 80px;
+																									        height: 80px;
+																									}
 
-																								.card {
-																									    width: 30%;
-																									        background-color: #f0f0f0;
-																										    border-radius: 8px;
-																										        padding: 20px;
-																											    text-align: center;
-																										    }
+																									.testimonial p {
+																										    color: #333; /* Darker text for readability */
+																									    }
 
-																										    .card img {
-																											        width: 100px;
-																												    margin-bottom: 20px;
-																											    }
+																									    /* Contact Section */
+																									    .contact {
+																										        background-color: #ffffff; /* White background for contact form */
+																											    padding: 60px 20px;
+																											        color: #333;
+																											}
 
-																											    .card h3 {
-																												        font-size: 1.5rem;
-																													    margin-bottom: 10px;
-																												    }
+																											.contact form input,
+																											.contact form textarea {
+																												    width: 100%;
+																												        padding: 10px;
+																													    margin: 10px 0;
+																													        border-radius: 5px;
+																														    border: 2px solid #ff9800; /* Orange border for input fields */
+																													    }
 
-																												    .card p {
-																													        font-size: 1rem;
-																													}
+																													    .primary-button {
+																														        background-color: #ff9800;
+																															    color: white;
+																															        padding: 15px 30px;
+																																    border-radius: 5px;
+																																        text-decoration: none;
+																																	    font-size: 1rem;
+																																    }
 
-																													/* About Section */
-																													.about {
-																														    padding: 60px 20px;
-																														        text-align: center;
-																															    background-color: #e0e0e0;
-																														    }
-
-																														    .about h2 {
-																															        font-size: 2rem;
-																																    margin-bottom: 20px;
-																															    }
-
-																															    /* Footer */
-																															    footer {
-																																        background-color: #333;
-																																	    color: white;
-																																	        padding: 20px;
-																																		    text-align: center;
-																																	    }
-
-																																	    footer p {
-																																		        margin-bottom: 10px;
-																																		}
-
-																																		footer a {
+																																    /* Footer Styles */
+																																    footer {
+																																	        background-color: #ff9800; /* Footer with vibrant orange */
+																																		    padding: 20px;
+																																		        text-align: center;
 																																			    color: white;
-																																			        margin: 0 10px;
-																																				    text-decoration: none;
-																																			    }
+																																		    }
+
+																																		    footer .social-links a {
+																																			        color: white;
+																																				    margin: 0 10px;
+																																				        text-decoration: none;
+																																				}
 
