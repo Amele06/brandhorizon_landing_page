@@ -1,0 +1,149 @@
+
+dy {
+	    font-family: 'Arial', sans-serif;
+	        margin: 0;
+		    background-color: #f7f7f7; /* Light background */
+	    }
+
+	    /* Navigation Bar */
+	    header {
+		        background-color: #0070f3; /* BrandHorizon theme color (e.g., blue) */
+			    padding: 20px 40px;
+			        display: flex;
+				    justify-content: space-between;
+				        align-items: center;
+					    color: white;
+				    }
+
+				    header .logo {
+					        font-size: 1.5rem;
+						    font-weight: bold;
+					    }
+
+					    header nav ul {
+						        display: flex;
+							    list-style: none;
+						    }
+
+						    header nav ul li {
+							        margin: 0 15px;
+							}
+
+							header nav ul li a {
+								    color: white;
+								        text-decoration: none;
+								}
+
+								header nav .cta-button {
+									    padding: 10px 20px;
+									        background-color: white;
+										    color: #0070f3;
+										        border-radius: 5px;
+											    text-decoration: none;
+										    }
+
+										    /* Hero Section */
+										    .hero {
+											        background-image: url('your-background-image.jpg'); /* Hero background */
+												    background-size: cover;
+												        background-position: center;
+													    color: white;
+													        height: 80vh;
+														    display: flex;
+														        align-items: center;
+															    justify-content: center;
+															        text-align: center;
+															}
+
+															.hero-content {
+																    max-width: 600px;
+															    }
+
+															    .hero h1 {
+																        font-size: 3rem;
+																}
+
+																.hero p {
+																	    font-size: 1.25rem;
+																	        margin: 20px 0;
+																	}
+
+																	.primary-button {
+																		    padding: 15px 30px;
+																		        background-color: #ff9800; /* CTA color (orange or your choice) */
+																			    color: white;
+																			        border: none;
+																				    border-radius: 5px;
+																				        text-decoration: none;
+																					    font-size: 1.2rem;
+																				    }
+
+																				    /* Features Section */
+																				    .features {
+																					        padding: 60px 20px;
+																						    text-align: center;
+																						        background-color: #fff;
+																						}
+
+																						.features h2 {
+																							    font-size: 2.5rem;
+																							        margin-bottom: 40px;
+																							}
+
+																							.feature-cards {
+																								    display: flex;
+																								        justify-content: space-around;
+																								}
+
+																								.card {
+																									    width: 30%;
+																									        background-color: #f0f0f0;
+																										    border-radius: 8px;
+																										        padding: 20px;
+																											    text-align: center;
+																										    }
+
+																										    .card img {
+																											        width: 100px;
+																												    margin-bottom: 20px;
+																											    }
+
+																											    .card h3 {
+																												        font-size: 1.5rem;
+																													    margin-bottom: 10px;
+																												    }
+
+																												    .card p {
+																													        font-size: 1rem;
+																													}
+
+																													/* About Section */
+																													.about {
+																														    padding: 60px 20px;
+																														        text-align: center;
+																															    background-color: #e0e0e0;
+																														    }
+
+																														    .about h2 {
+																															        font-size: 2rem;
+																																    margin-bottom: 20px;
+																															    }
+
+																															    /* Footer */
+																															    footer {
+																																        background-color: #333;
+																																	    color: white;
+																																	        padding: 20px;
+																																		    text-align: center;
+																																	    }
+
+																																	    footer p {
+																																		        margin-bottom: 10px;
+																																		}
+
+																																		footer a {
+																																			    color: white;
+																																			        margin: 0 10px;
+																																				    text-decoration: none;
+																																			    }
+
